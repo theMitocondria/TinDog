@@ -1,0 +1,158 @@
+body{
+   font-family: Montserrat;
+}
+#title{
+  margin: 0;
+  background-color: rgb(255, 76, 104);
+}
+.container-fluid{
+  padding: 3% 16%;
+  margin: 0;
+  padding-bottom: 5%;
+}
+/* navbar */
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 30px;
+  font-weight: bolder;
+  padding-left: 0;
+}
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.nav-item{
+  font-family: Ubuntu;
+}
+.nav-link{
+  font-size: 18px;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-right: 10px;
+  font-weight: lighter;
+}
+.logo{
+  margin-right: 10px;
+}
+
+/* title text */
+h1{
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: white;
+}
+.h2{
+  color: white;
+  font-family: Montserrat;
+  font-weight:450;
+}
+/* tittle apple image */
+#APPLES{
+  height: 600px;
+  transform:rotate(25deg);
+  position: absolute;
+  right: 22%;
+
+}
+/* download button */
+.download-button{
+  margin: 1.5% 5% 3% 0;
+}
+#features{
+  margin-top: 0;
+  background-color: white;
+  position: relative;
+  z-index:2;
+}
+.icons{
+   color: rgb(255, 76, 104);
+   margin-bottom: 10px;
+}
+.col-lg-4{
+  text-align: center;
+  margin-top:5%;
+  margin-bottom: 5%;
+}
+h3{
+  font-family: Montserrat;
+  font-weight: bold;
+  line-height: 1.5rem
+}
+.p1{
+  color: rgb(134, 134, 134);
+}
+
+/* testimonial section */
+#testimonials{
+  background-color:rgb(255, 76, 104);
+  text-align: center;
+  padding-top: 5%;
+}
+.dog,.testimonial-image{
+  width:10%;
+  border-radius: 100%;
+  margin: 3% 3%;
+}
+/* press logo */
+#press{
+  background-color: rgb(255, 76, 104);
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
+.press-logo{
+    height: 50px;
+    margin:2% 2%;
+}
+/* carousel */
+.carousel-item{
+    padding: 3% 15%;
+}
+/* card-pricing */
+.col-lg-4{
+  padding: 2%;
+}
+.card{
+  padding-bottom: 2%;
+}
+.free{
+  width: 60%;
+}
+h2{
+  font-family: Montserrat;
+  font-size: 35px;
+  font-weight: bold;
+}
+.pricing-text{
+  text-align: center;
+  padding-top: 5%;
+}
+@media (max-width:1000px) {
+   #title{
+     text-align: center;
+   }
+   #APPLES{
+     transform: rotate(0deg);
+     position: static;
+   }
+}
+#cta{
+  background-color:rgb(255, 76, 104);
+  text-align: center;
+  padding: 15px;
+  padding-bottom: 25px;
+  margin-bottom: 35px;
+}
+.cta{
+  margin-top: 0;
+  font-size: 35px;
+  color: white;
+  font-family: Ubuntu;
+  font-weight: 900;
+}
+
+#footer{
+  text-align: center;
+}
+.FOOT{
+  margin:2px 10px;
+}
